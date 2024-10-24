@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Fabrication/")
 		)
 	)
 	(net 0 "")
@@ -957,7 +957,7 @@
 		(uuid "2913a5bc-54fb-4a9e-bb92-206679eec8d8")
 		(at 127.65 83.45 180)
 		(property "Reference" "Q2"
-			(at 0.025 -3.375 360)
+			(at 0.025 -3.375 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c72994ea-a4a7-49e5-abac-a3355c39da8d")
@@ -969,7 +969,7 @@
 			)
 		)
 		(property "Value" "MMBT2222A-7-F"
-			(at 0.025 3.25 360)
+			(at 0.025 3.25 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30e68f97-738d-4721-ac6e-2c0b3dbfc37d")
@@ -981,7 +981,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:SOT-23-3"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c09025bc-4e97-44f8-b79d-c0759135362b")
@@ -993,7 +993,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30041.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5eb4fc1e-8e61-41de-b84b-608405bbaaa3")
@@ -1005,7 +1005,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 40V 0.6A SMD SOT23-3"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36677e01-7757-43e5-945b-7b42e6848165")
@@ -1338,7 +1338,7 @@
 			(uuid "c750967a-f81a-459c-bb17-e80b255f0c29")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.125 0.15 360)
+			(at -0.125 0.15 0)
 			(layer "F.Fab")
 			(uuid "bc7381be-b936-4ea3-9fdf-0f25a441f2d6")
 			(effects
@@ -1377,6 +1377,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.07)
 			(uuid "e9b19edf-bf81-420e-9539-66677be0660f")
+		)
+		(model "${KIPRJMOD}/3DModels/MMBT2222A-7-F.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -1815,7 +1826,7 @@
 		(at 118.5 80)
 		(descr "http://www.molex.com/pdm_docs/sd/022232031_sd.pdf")
 		(property "Reference" "J1"
-			(at 3.71 -23.59 360)
+			(at 3.71 -23.59 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e85c343e-a46d-4d73-aa57-27af509899a5")
@@ -1827,7 +1838,7 @@
 			)
 		)
 		(property "Value" "0022232031"
-			(at 2.82 4.63 360)
+			(at 2.82 4.63 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67390eeb-30d3-4ba8-95e2-ca41d73c162e")
@@ -1839,7 +1850,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:PinHeader_1x3_P2.54mm_Drill1.02mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e61b1f5e-f399-4e2e-9717-71d8dd1ddd9a")
@@ -1851,7 +1862,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/022232031_sd.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "82710683-5398-439a-af2e-508129b2c3ca")
@@ -1863,7 +1874,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ee0b10b-5124-4b7a-be13-82392f32636f")
@@ -2169,7 +2180,7 @@
 			(uuid "ea7ba7c5-49b2-42fb-9768-9d1db56418e9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 360)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "2d318c03-ad2f-48d2-af91-649c4e9bb738")
 			(effects
@@ -2226,7 +2237,7 @@
 		(uuid "61023f8b-59d7-45fa-a932-d8ac47e2db2e")
 		(at 131.5 83.45)
 		(property "Reference" "Q3"
-			(at 0.025 -3.375 360)
+			(at 0.025 -3.375 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6d6f4bb4-ae60-4404-ac10-cd924b4ec918")
@@ -2238,7 +2249,7 @@
 			)
 		)
 		(property "Value" "MMBT2907ALT1G"
-			(at 0.025 3.25 360)
+			(at 0.025 3.25 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bbb67d86-f780-4377-85ca-5b568e3e99cc")
@@ -2250,7 +2261,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:SOT-23-3"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "81ec3005-95b4-44db-b4ad-19d674cb3fe8")
@@ -2262,7 +2273,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MMBT2907ALT1-D.PDF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4cb20e75-6521-4c7f-afcd-dd880d80e1c5")
@@ -2274,7 +2285,7 @@
 			)
 		)
 		(property "Description" "TRANS PNP 60V 0.6A SOT23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b3bb179-a0d7-4776-9cf9-74f643a2474e")
@@ -2607,7 +2618,7 @@
 			(uuid "e870706e-173d-4ff0-8a61-a25f15be5246")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.125 0.15 360)
+			(at -0.125 0.15 0)
 			(layer "F.Fab")
 			(uuid "27448494-106e-4032-8ba4-6709cf1d44b9")
 			(effects
@@ -2646,6 +2657,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.07)
 			(uuid "2b1e0f6c-b2ef-4b91-9855-a05cccfd68bf")
+		)
+		(model "${KIPRJMOD}/3DModels/MMBT2222A-7-F.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -3300,7 +3322,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 0 3.4 360)
+			(at 0 3.4 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "0f74f67b-94e0-46b7-a8f9-3fb1512f9921")
@@ -3313,7 +3335,7 @@
 			)
 		)
 		(property "Value" "NE555P"
-			(at 0 -3.4 360)
+			(at 0 -3.4 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "73c7c0df-e59e-43a1-86df-515f676c3473")
@@ -3326,7 +3348,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "15e6bd5f-f77f-4173-b78a-92a24a9c7689")
@@ -3339,7 +3361,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "457f49dc-ce82-4fc9-9bd1-50c70879480e")
@@ -3352,7 +3374,7 @@
 			)
 		)
 		(property "Description" "Precision Timers, 555 compatible,  PDIP-8"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "471b4172-1d96-47b6-b352-60d65425f89a")
@@ -3512,7 +3534,7 @@
 			(uuid "b53004bc-314c-4a6c-8219-b393f37e4e93")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "83cd2b4f-5424-4f78-a2b8-0379aa4ec7c3")
 			(effects
@@ -3622,7 +3644,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "0eda4683-ef3c-494c-8c9b-2f1130693c96")
@@ -3635,7 +3657,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8746700d-3fbb-4913-b7cf-d4b5817b3cb1")
@@ -3795,7 +3817,7 @@
 			(uuid "db3b7720-d490-43eb-9222-387f950f23f7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "3e0afd4d-1d4a-4265-9047-f63616b84963")
 			(effects
@@ -3838,7 +3860,7 @@
 	)
 	(gr_rect
 		(start 116 76)
-		(end 134.75 90.5)
+		(end 134.1 90.5)
 		(stroke
 			(width 0.05)
 			(type default)
