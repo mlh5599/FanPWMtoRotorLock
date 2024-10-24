@@ -14,6 +14,6 @@ Utilizes a missing pulse detector based on the circuitry [here](https://www.fals
 ## Images
 
 <p float="left">
-    <img src="FanPWMtoRotorLock-Front.jpg" alt="Front View" width="400" />
-    <img src="FanPWMtoRotorLock-Back.jpg" alt="Back View" width="400" />
+    <img src="Images/FanPWMtoRotorLock-Front.jpg" alt="Front View" width="400" />
+    <img src="Images/FanPWMtoRotorLock-Back.jpg" alt="Back View" width="400" />
 </p>
