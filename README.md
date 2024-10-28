@@ -3,7 +3,8 @@ Utilizes a missing pulse detector based on the circuitry [here](https://www.fals
 
 ## BOM
 
-- 1 10uf Capacitor SMT 08051 Molex 022232031 Connector
+- 1 10uf Capacitor SMT 08051 
+- Molex 022232031 Connector
 - 1 JST-PH2.0MM Connector
 - 1 MMBT2222A-7-F SOT-23 NPN Transistor
 - 1 MMBT2907ALT1G SOT-23 PNP Transistor
