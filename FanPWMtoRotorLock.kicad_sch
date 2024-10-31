@@ -8,6 +8,142 @@
 		(title "Fan PWM to Rotor Lock")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers hide)
 			(pin_names
@@ -1393,6 +1529,12 @@
 		(uuid "24d428d6-c014-4592-be58-be3b22fc5c2a")
 	)
 	(junction
+		(at 205.74 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27cb5a12-00d5-4df6-8b94-08638d65a148")
+	)
+	(junction
 		(at 82.55 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1445,6 +1587,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8c314e0-5538-4e0b-897f-86b929c203ac")
+	)
+	(junction
+		(at 205.74 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e130168f-d29c-4c08-841a-cd07bb12f982")
 	)
 	(junction
 		(at 116.84 69.85)
@@ -1554,6 +1702,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 46.99) (xy 210.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccdbc13-9edd-4866-84d0-1ca2ed23bbc3")
+	)
+	(wire
+		(pts
 			(xy 218.44 66.04) (xy 224.79 66.04)
 		)
 		(stroke
@@ -1611,6 +1769,16 @@
 			(type default)
 		)
 		(uuid "43ab013a-ec58-4643-8f9b-87544103449e")
+	)
+	(wire
+		(pts
+			(xy 205.74 80.01) (xy 205.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf98f25-3bf9-415a-b01c-cf64b35039be")
 	)
 	(wire
 		(pts
@@ -1744,6 +1912,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 82.55) (xy 205.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4450f6-a2cc-4df1-8bdd-d47bee9b33c8")
+	)
+	(wire
+		(pts
 			(xy 243.84 55.88) (xy 243.84 87.63)
 		)
 		(stroke
@@ -1794,23 +1972,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 46.99) (xy 210.82 46.99)
+			(xy 182.88 46.99) (xy 205.74 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94ecfa9f-d041-4e73-9417-71560528a7f0")
-	)
-	(wire
-		(pts
-			(xy 232.41 82.55) (xy 182.88 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3d3e85a-3282-4cd7-bddf-f45160a0b883")
 	)
 	(wire
 		(pts
@@ -1984,6 +2152,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 82.55) (xy 232.41 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f657cd39-7722-4136-a71a-e613324072ef")
+	)
+	(wire
+		(pts
 			(xy 86.36 46.99) (xy 86.36 57.15)
 		)
 		(stroke
@@ -1991,6 +2169,16 @@
 			(type default)
 		)
 		(uuid "fccefe91-e877-4cf9-b181-a4254e87f856")
+	)
+	(wire
+		(pts
+			(xy 205.74 46.99) (xy 205.74 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe09084a-0797-4bfd-9e64-3115901a1e13")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2226,6 +2414,76 @@
 			(project "FanPWMtoRotorLock"
 				(path "/c0099403-d42d-41be-a2ae-764c0561f33a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 205.74 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c191129-708e-4e20-abcb-c409dc07085f")
+		(property "Reference" "C2"
+			(at 209.55 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 209.55 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 206.7052 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19fdae5e-e84d-4bd8-87a1-51b490ff4d43")
+		)
+		(pin "1"
+			(uuid "5a1f050a-b69f-4080-8387-d1e4dcc64a0b")
+		)
+		(instances
+			(project ""
+				(path "/c0099403-d42d-41be-a2ae-764c0561f33a"
+					(reference "C2")
 					(unit 1)
 				)
 			)
